@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Qwigley&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <style>
+        body{
+            font-family: Roboto;
+            background: url(images/test-slider-joie.png);
+            background-position: center;
+            background-attachment: fixed;
+        }
+        
+
+        .container-fluid{
+            /* height: auto; */
+            /* width: 100%; */
+            /* border: 1px solid black; */
+            /* margin-top: 200px; */
+           
+
+        }
+        .row{
+            /* border: 1px solid black; */
+            margin-top: 5px;
+        }
+        .col-lg-6{
+            /* border: 1px solid black; */
+        }
+        .col-lg-12{
+            /* border: 1px solid black; */
+            /* height: auto; */
+        }
+        .height{
+            /* height: 30px; */
+              border: 1px solid white;
+              background-image: linear-gradient(to bottom left,#d8d5d5, #dddddf);
+            
+              color: rgb(17, 16, 16);
+              font-weight: bold;
+              line-height: 50px;
+              box-shadow: 1px 1px 5px 1px  #d2d4dc;
+              /* margin-left: 5px; */
+        }
+        h2{
+            /* #d2d4dc • #afafaf • #f8f8fa • #e5e6eb • #c0c2ce */
+            color: #f8f8fa;
+            text-shadow:10px 1px 1px 5px #e5e6eb;
+            /* #d2d4dc • #afafaf • #f8f8fa • #e5e6eb • #c0c2ce */
+        }
+        #q11,#q22,#q33,#q44,#q55,#q66{
+            display: none;
+        }
+        h3{
+            line-height: 30px;
+            color: black;
+        }
+        .col-lg-6{
+            /* border: 1px solid white; */
+        }
+        .btnn{
+            width: 200px;
+            box-shadow: 1px 1px 1px 1px gray;
+        }
+        .navbar-dark .navbar-nav .nav-link{
+        color: white;
+        font-weight: bold;
+    }
+    header{
+        width: 100%;
+    }
+    li{
+            padding: 7px;
+           
+          
+        }
+        h3{
+            color: black;
+            font-weight: bold;
+        }
+        .cen{
+            width: 70%;
+        }
+        .navbar-dark .navbar-nav .nav-link{
+        color: white;
+    }
+  li{
+      font-family: Niconne;
+      font-size: 24px;
+  }
+  h3{
+      font-family: Niconne;
+      font-size: 30px;
+  }
+  h2{
+    font-family: Niconne;
+      font-size: 36px;
+  }
+  #q1,#q2,#q3,#q4,#q5,#q6{
+    font-family: Niconne;
+    font-size: 25px;
+  }
+  p{
+      font-weight: bolder;
+  }
+       
+       
+    </style>
+  </head>
+  <body>
+
+      <div class="container-fluid ">
+        <div class="row">
+            <header>
+              <nav class="navbar navbar-expand-sm  navbar-dark ">
+                  <div class="container-fluid">
+                      
+                 
+                  <a class="navbar-brand" href="#"><img src="images/4140778669_ed904b7f-159a-4ffd-be96-a2833830c030.png" height="50px" alt=""></a>
+                  <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                      aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+                      <ul class="navbar-nav  mt-2 mt-lg-0">
+                          <li class="nav-item active">
+                              <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="about.html">About</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
+                              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                  <a class="dropdown-item" href="#">Men</a>
+                                  <a class="dropdown-item" href="#">Women</a>
+                              </div>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="Contactus.html">Contact Us</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="faqs.html">Faqs</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="review.html">Review</a>
+                          </li>
+                      </ul>
+                  </div>
+                  </div>
+              </nav>
+            </header>
+        </div>
+          <!-- <div class="row justify-content-center"><img class="mt-2"  src="images/237-2377618_faqs-graphic-pixabay-faq-hd-png-download-removebg-preview.png" height="150px" alt=""></div> -->
+          <div class="row " id="main">
+              <div class="container-fluid cen ">
+              <div class="col-sm-12 col-lg-5 mt-5">
+            <div class="col-sm-12 col-lg-12 mt-2"><h3>If you have a question about KK-perfumes,you're at the right place</h3></div>
+            
+            <div class="col-sm-12 col-lg-12 mt-4 height " id="q1" >scghwe loerem jlkd kinxslk</div>
+            <div class="col-sm-12 col-lg-12  mt-2 height" id="q2">scghwe loerem jlkd kinxslk</div>
+            <div class="col-sm-12  col-lg-12 mt-2 height" id="q3">scghwe loerem jlkd kinxslk</div>
+            <div class="col-sm-12  col-lg-12 mt-2 height" id="q4">scghwe loerem jlkd kinxslk</div>
+            <div class="col-sm-12 col-lg-12 mt-2 height" id="q5">scghwe loerem jlkd kinxslk</div>
+            <div class="col-sm-12  col-lg-12 mt-2 height" id="q6">scghwe loerem jlkd kinxslk</div>
+
+              </div>
+           
+              
+          </div>
+          </div>
+          <!-- first question -->
+          <div class="row mt-5" id="q11">
+            <div class="col-sm-12  col-lg-6 mt-5 text-center " >
+               
+                <h3>scghwe loerem jlkd kinxslk</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <button class="btn btn-dark mt-2 btnn">Back</button>
+    
+        </div>
+        <div class="col-sm-12 col-lg-6 text-center"><img class="img-fluid " src="images/default-removebg-preview.png"   alt=""></div>
+          </div>
+          <!-- second question -->
+          <div class="row mt-5" id="q22">
+            <div class="col-sm-12 col-lg-6 mt-5 text-center " >
+               
+                <h3>scghwe loerem jlkd kinxslk</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <button class="btn btn-dark mt-2 btnn">Back</button>
+    
+        </div>
+        <div class="col-sm-12 col-lg-6 text-center"><img class="img-fluid" src="images/default__1_-removebg-preview.png"  alt=""></div>
+          </div>
+          <!-- third question -->
+          <div class="row mt-5" id="q33">
+            <div class="col-sm-12 col-lg-6 mt-5 text-center" >
+               
+                <h3>scghwe loerem jlkd kinxslk</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <button class="btn btn-dark mt-2 btnn">Back</button>
+    
+        </div>
+        <div class="col-sm-12 col-lg-6 text-center"><img class="img-fluid" src="images/default__1_-removebg-preview.png" height="200px" alt=""></div>
+          </div>
+          <!-- question no 4 -->
+          <div class="row mt-5" id="q44">
+            <div class="col-sm-12 mt-2 col-lg-6 mt-5 text-center " >
+               
+                <h3>scghwe loerem jlkd kinxslk</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <button class="btn btn-dark mt-2 btnn">Back</button>
+    
+        </div>
+        <div class="col-sm-12 col-lg-6 text-center"><img class="img-fluid" src="images/default__1_-removebg-preview.png" height="200px" alt=""></div>
+          </div>
+          <!-- question no 5 -->
+          <div class="row mt-5" id="q55">
+            <div class=" col-sm-12  col-lg-6 mt-5 text-center " >
+               
+                <h3>scghwe loerem jlkd kinxslk</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <button class="btn btn-dark mt-2 btnn">Back</button>
+    
+        </div>
+        <div class="col-sm-12 col-lg-6 text-center"><img class="img-fluid" src="images/default__1_-removebg-preview.png" height="200px" alt=""></div>
+          </div>
+          <!-- question no 6 -->
+          <div class="row mt-5" id="q66">
+            <div class="col-sm-12 mt-2 col-lg-6 mt-5 text-center" >
+               
+                <h3>scghwe loerem jlkd kinxslk</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <h3>DO you know about perfumes</h3>
+                <button class="btn btn-dark mt-2 btnn">Back</button>
+    
+        </div>
+        <div class="col-sm-12 col-lg-6 text-center"><img class="img-fluid" src="images/default__1_-removebg-preview.png" height="200px" alt=""></div>
+          </div>
+        
+      </div>
+     
+      <script>
+          $(document).ready(function(){
+              $("#q1").click(function(){
+                  $("#main").slideUp();
+                  $("#q11").show();
+                  $("#q1").css("border", "2px solid ");
+              })
+          
+          $("button").click(function(){
+              $("#main").slideDown();
+              $("#q11").hide();
+              })
+
+            //   2nd div
+
+            $("#q2").click(function(){
+                  $("#main").slideUp();
+                  $("#q22").show();
+                  $("#q2").css("border", "2px solid black");
+                  $("#q1").css("border","");
+                  $("#q4").css("border","");
+                  $("#q5").css("border","");
+                  $("#q3").css("border","");
+                  $("#q6").css("border","");
+             
+          })
+          $("button").click(function(){
+              $("#main").slideDown();
+              $("#q22").hide();
+              })
+          
+// 3rd div
+
+               $("#q3").click(function(){
+                  $("#main").slideUp();
+                  $("#q33").show();
+                  $("#q3").css("border", "2px solid black");
+                  $("#q4").css("border","");
+                  $("#q5").css("border","");
+                  $("#q2").css("border","");
+                  $("#q1").css("border","");
+                  $("#q6").css("border","");
+              })
+              $("button").click(function(){
+              $("#main").slideDown();
+              $("#q33").hide();
+              })
+
+              $("#q4").click(function(){
+                  $("#main").slideUp();
+                  $("#q44").show();
+                  $("#q4").css("border", "2px solid black");
+                  $("#q3").css("border","");
+                  $("#q5").css("border","");
+                  $("#q2").css("border","");
+                  $("#q1").css("border","");
+                  $("#q6").css("border","");
+              })
+              $("button").click(function(){
+              $("#main").slideDown();
+              $("#q44").hide();
+              })
+
+              $("#q5").click(function(){
+                  $("#main").slideUp();
+                  $("#q55").show();
+                  $("#q5").css("border", "2px solid black");
+                  $("#q4").css("border","");
+                  $("#q3").css("border","");
+                  $("#q2").css("border","");
+                  $("#q1").css("border","");
+                  $("#q6").css("border","");
+              })
+              $("button").click(function(){
+              $("#main").slideDown();
+              $("#q55").hide();
+              
+              })
+
+              $("#q6").click(function(){
+                  $("#main").slideUp();
+                  $("#q66").show();
+                  $("#q6").css("border", "2px solid black");
+                  $("#q5").css("border"," ");
+                  $("#q4").css("border","");
+                  $("#q3").css("border","");
+                  $("#q2").css("border","");
+                  $("#q1").css("border","");
+              })
+              $("button").click(function(){
+              $("#main").slideDown();
+              $("#q66").hide();
+              })
+
+
+
+
+          })
+      </script>
+    
+  </body>
+</html>
